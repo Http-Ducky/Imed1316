@@ -12,10 +12,10 @@
 :root {
 
 /* var(--primaryColor) !important; */
---primaryColor: #98ADD6;
+--primaryColor: #141414;
 
 /* var(--secondaryColor) !important; */
---secondaryColor: #141414;
+--secondaryColor: #98ADD6;
 
 /* var(--accentColor) !important; */
 --accentColor: #D6C198;
