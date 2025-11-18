@@ -9,8 +9,22 @@
   </head>
   <body>
     <form action="my-server-file.php" id="myForm" name="myForm">
-      <label>First Name</label>
+
+      <!-- TEXT FEILD-->
+      <labelfor=first-name>First Name</label>
       <input type="text" name="fName" id="first-name" required />
+
+      <!--drop down menu-->
+<label for="color">Choose a color</label>
+      <select name="colors" id="colors" required>
+        <option Value="">Select</option>
+        <option value="White">White</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Purple">Purple</option>
+        <option Value="Yellow">Yellow</option>
+        <optionValue=Green>Green</option>
+      </select>
     </form>
 
     <script src="js/form.js"></script>
