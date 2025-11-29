@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messier Catalog • Messier's Lake</title>
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: #0b0f1a;
+        color: #e6e8f1;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        background: linear-gradient(135deg, #1a2440, #0f1628);
+        padding: 2rem;
+        text-align: center;
+        border-bottom: 1px solid #2a3350;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+      }
+
+      header p {
+        color: #9ba4c7;
+        margin-top: 0.5rem;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      .section {
+        margin-bottom: 2.5rem;
+        background: #131a2b;
+        padding: 1.8rem;
+        border-radius: 10px;
+        border: 1px solid #222a44;
+      }
+
+      h2 {
+        color: #88aaff;
+        margin-top: 0;
+        font-size: 1.7rem;
+      }
+
+      a {
+        color: #88aaff;
+      }
+
+      .catalog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .object-card {
+        background: #0f1525;
+        border: 1px solid #1e2640;
+        padding: 1rem;
+        border-radius: 8px;
+        transition: 0.2s;
+      }
+
+      .object-card:hover {
+        border-color: #3c4b7a;
+        background: #171f36;
+      }
+
+      .object-card h3 {
+        margin-top: 0;
+        font-size: 1.3rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: #657199;
+        border-top: 1px solid #2a3350;
+        margin-top: 3rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Messier Catalog</h1>
+      <p>An index of 110 iconic deep-sky wonders</p>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>About the Catalog</h2>
+        <p>The Messier Catalog is a collection of 110 astronomical objects compiled by Charles Messier in the 18th century. Originally intended to help comet hunters avoid confusion, the list has become one of the most famous guides for amateur astronomers. It includes star clusters, nebulae, galaxies, and other deep-sky targets that are bright, beautiful, and accessible through small telescopes.</p>
+      </section>
+
+      <section class="section">
+        <h2>Objects</h2>
+        <p>Below is a selection of Messier objects. You can expand this catalog as your project grows.</p>
+
+        <div class="catalog-grid">
+          <!-- M1 -->
+          <div class="object-card">
+            <h3>M1 • Crab Nebula</h3>
+            <p>A supernova remnant in Taurus, expanding since its explosion in 1054 CE.</p>
+          </div>
+
+          <!-- M13 -->
+          <div class="object-card">
+            <h3>M13 • Great Hercules Cluster</h3>
+            <p>One of the brightest globular clusters in the northern sky, containing hundreds of thousands of stars.</p>
+          </div>
+
+          <!-- M31 -->
+          <div class="object-card">
+            <h3>M31 • Andromeda Galaxy</h3>
+            <p>The nearest major galaxy to the Milky Way and one of the few visible to the naked eye.</p>
+          </div>
+
+          <!-- M42 -->
+          <div class="object-card">
+            <h3>M42 • Orion Nebula</h3>
+            <p>A massive star-forming region, visible as the “sword” hanging from Orion’s belt.</p>
+          </div>
+
+          <!-- M45 -->
+          <div class="object-card">
+            <h3>M45 • Pleiades</h3>
+            <p>A bright open cluster known as the Seven Sisters, easily visible without a telescope.</p>
+          </div>
+
+          <!-- M57 -->
+          <div class="object-card">
+            <h3>M57 • Ring Nebula</h3>
+            <p>A planetary nebula in Lyra with a distinctive donut-like shape.</p>
+          </div>
+
+          <!-- M81 -->
+          <div class="object-card">
+            <h3>M81 • Bode's Galaxy</h3>
+            <p>A grand-design spiral galaxy located in Ursa Major, often photographed with its neighbor M82.</p>
+          </div>
+
+          <!-- M104 -->
+          <div class="object-card">
+            <h3>M104 • Sombrero Galaxy</h3>
+            <p>A galaxy with a bright nucleus and wide dust lane, giving it a sombrero-like appearance.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 Messier's Lake — Student Astronomy Project</footer>
+  </body>
+</html>
