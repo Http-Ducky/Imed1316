@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Messier's Lake — Image Gallery</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #121212;
+        color: #eee;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 1rem 0;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .gallery-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        background-color: #222;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.05);
+      }
+
+      .gallery-item .desc {
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Messier's Lake — Photo Gallery</h1>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="Images/image-1.jpg" alt="Across The Milky Way - Aiden Mercel" />
+        <div class="desc">A vibrant, high-contrast view of the Milky Way core rising above the horizon. Wisps of interstellar dust and dense star clouds stretch vertically across the frame, with a faint meteor streak cutting through the galactic band. Warm airglow at the bottom transitions into deep purples and blues, giving the scene a soft, atmospheric glow.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/image-2.jpg" alt="Stars vs Mother Gaia - Serena Halwick" />
+        <div class="desc">A dramatic night-sky composition capturing the Milky Way over rugged canyon terrain and a winding river below. Multiple bright meteors slice diagonally across the sky, enhancing the sense of motion. Warm lights from distant settlements illuminate the landscape, creating a striking contrast with the cool, star-filled heavens.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/image-3.jpg" alt="Orion's Nebula - Dorian Vale" />
+        <div class="desc">Image description 3</div>
+      </div>
+
+      <!-- Add more .gallery-item blocks as needed -->
+    </div>
+  </body>
+</html>
